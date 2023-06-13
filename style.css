@@ -1,11 +1,36 @@
-#root {
+*{
     height: 100vh;
+    box-sizing: border-box;
 }
 
-#logo-container {
+body {
+    display: flex;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-image: url(./images/doggo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* img {
+    object-fit: cover;
+    width: 1000px;
+    height: 1500px;
+} */
+
+.logo-text {
+    position: absolute;
+    bottom: 0
 
 }
 
-#form-container {
-    
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 65%
 }
