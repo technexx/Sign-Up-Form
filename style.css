@@ -7,30 +7,28 @@ body {
     display: flex;
 }
 
+/*Flex-basis is initial size of element and applied to element itself. Grow/shrink apply to the flex container and how it manages all of its elements*/
 .logo-container {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    width: 35%;
-    background-image: url(./images/doggo.jpg);
+    width: 40%;
+    background-image: url(./images/doggo_2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-/* img {
-    object-fit: cover;
-    width: 1000px;
-    height: 1500px;
-} */
+.logo {
+    flex-basis: 0;
+}
 
 .logo-text {
-    position: absolute;
-    bottom: 0
-
+    flex-basis: 0
 }
 
 .form-container {
     display: flex;
     flex-direction: column;
-    width: 65%
+    width: 60%
 }
