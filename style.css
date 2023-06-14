@@ -51,7 +51,7 @@ body {
     height: 33.3%
 }
 
-.intro {
+.top-column {
     background-color: aliceblue;
     justify-content: center;
     font-size: 22px;
@@ -69,6 +69,7 @@ body {
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 20px;
     height: 1rem;
 }
 
@@ -76,4 +77,14 @@ body {
     display: flex;
     flex-direction: column;
     width: 40%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.form-left > label, .form-right > label {
+    margin-bottom: 2px;
+}
+
+.form-left > input, .form-right > input {
+    margin-bottom: 10px;
 }
