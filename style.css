@@ -24,6 +24,9 @@ body {
     flex-basis: 100%;
     margin-top: 200px;
     justify-content: center;
+    flex-basis: 300px;
+    background-color: rgba(22, 3, 3, 0.5);
+
 }
 
 .logo-container > img {
@@ -34,11 +37,11 @@ body {
 #logo-text {
     display: flex;
     font-size: 48px;
-    justify-content: center;
     align-items: center;
     height: 200px;
     width: 200px;
     text-align: center;
+    color: white;
 }
 
 .form-container {
