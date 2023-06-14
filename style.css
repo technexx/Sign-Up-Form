@@ -1,16 +1,12 @@
-*{
+body {
     height: 100vh;
     box-sizing: border-box;
-}
-
-body {
     display: flex;
 }
 
 /*Flex-basis is initial size of element and applied to element itself. Grow/shrink apply to the flex container and how it manages all of its elements*/
 .left-side {
     display: flex;
-    flex: 1;
     flex-direction: column;
     width: 40%;
     background-image: url(./images/prophet.jpg);
@@ -21,10 +17,9 @@ body {
 
 .logo-container {
     display: flex;
-    flex-basis: 100%;
-    margin-top: 200px;
     justify-content: center;
     flex-basis: 300px;
+    margin-top: 200px;
     background-color: rgba(0, 0, 0, 0.7);
 
 }
@@ -44,8 +39,22 @@ body {
     color: white;
 }
 
-.form-container {
+.right-side {
     display: flex;
     flex-direction: column;
     width: 60%
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: center;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.right-side > * {
+    height: 33.3%
 }
