@@ -13,7 +13,7 @@ body {
     flex: 1;
     flex-direction: column;
     width: 40%;
-    background-image: url(./images/doggo_2.jpg);
+    background-image: url(./images/prophet.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -25,7 +25,7 @@ body {
     margin-top: 200px;
     justify-content: center;
     flex-basis: 300px;
-    background-color: rgba(22, 3, 3, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 
 }
 
