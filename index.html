@@ -20,26 +20,26 @@
     <div class="right-side">
         <div class="top-column">
             <p>Tired of cults that leave you hanging with their broken promises, indentured servitude, and ironically fractitious politics?</p>
-            <p>Well, sorry, but that's how cults are. So why not join the largest, and therefore least humilitating?</p>
-            <p>At OmniCult&trade;, we've streamlined the entire degradation and de-humanization process with the brutal efficiency that only a multi-billion, multi-national corporation can. From the moment you are sedated and wheeled into our de-programming chamber, you will feel like you've died and gone to Xenoth! But don't worry, that part comes later.</p>
+            <p>Well, sorry, but that's how cults are. So why not join the largest, and therefore least humilitating one?</p>
+            <p>At OmniCult&trade;, we've streamlined the entire degradation and dehumanization process with the brutal efficiency that only a multinational, multibillion dollar corporation can. From the moment you are sedated and wheeled into our de-programming chamber, you will feel like you have died and gone to Xenoth! But don't worry, that part comes later.</p>
         </div>
         <div class="mid-column">
             <div id="form-header">Let's do this!</div>
             <form id="my-form">
                 <div class="form-left">
                     <label for="first_name">First Name</label>
-                    <input type="text" id="first_name" name="first_name" required>
+                    <input type="text" id="first_name" name="first_name" minlength="3">
                     <label for="e-mail">Email</label>
-                    <input type="email" id="e-mail" name="e-mail" required>
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+                    <input type="email" id="e-mail" name="e-mail">
+                    <!-- <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"> -->
                 </div>
                 <div class="form-right">
                     <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name" name="last_name" required>
+                    <input type="text" id="last_name" name="last_name" minlength="3" >
                     <label for="phone_number">Phone Number</label>
-                    <input type="number" id="phone_number" name="phone_number" required minlength="10" maxlength="10" pattern="/{10,}" title="Must contain 10 numbers">
-                    <label for="confirm_password">Password</label>
+                    <input type="text" id="phone_number" name="phone_number" pattern="[1-9]{1}[0-9]{9}"oninvalid="setCustomValidity('Please enter a valid 10 digit phone number')" required>
+                    <label for="confirm_password">Confirm Password</label>
                     <input type="password" id="confirm_password" name="password" required>
                 </div>
             </form>

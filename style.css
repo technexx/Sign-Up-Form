@@ -90,9 +90,20 @@ body {
 }
 
 .form-left > input, .form-right > input {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 5px;
 }
 
-input:invalid {
-    
-}
+/* input:focus {
+    border-color: red;
+} */
+
+/* input:invalid {
+    border-color: red;
+  } */
+  
+  input:valid {
+    border-color: green;
+  } 
