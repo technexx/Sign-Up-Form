@@ -11,9 +11,7 @@ body {
     flex-direction: column;
     background-color: #F8F6F4;
     justify-content: center;
-    padding: 30px;
-    overflow: auto;
-
+    padding: 5rem;
 }
 
 .mid-column {
@@ -50,9 +48,13 @@ body {
     height: 200px;
 }
 
+
+@font-face { font-family: Norse; src: url('Norse-Bold.otf'); } 
+
 #logo-text {
+    font-family: Norse;
     display: flex;
-    font-size: 48px;
+    font-size: 96px;
     align-items: center;
     height: 200px;
     width: 200px;
