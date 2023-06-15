@@ -52,14 +52,18 @@ body {
 }
 
 .top-column {
-    background-color: aliceblue;
+    background-color: lightyellow;
     justify-content: center;
     font-size: 22px;
     font-weight: bold;
     padding: 30px;
 }
 
-.form-container {
+.mid-column {
+    background-color: aliceblue;
+}
+
+.mid-column > form {
     display: flex;
 }
 

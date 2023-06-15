@@ -25,7 +25,7 @@
         </div>
         <div class="mid-column">
             <div id="form-header">Let's do this!</div>
-            <div class="form-container">
+            <form id="my-form">
                 <div class="form-left">
                     <label for="first_name">First Name</label>
                     <input type="text" id="first_name" name="first_name" required>
@@ -42,10 +42,12 @@
                     <label for="confirm_password">Password</label>
                     <input type="password" id="confirm_password" name="password" required>
                 </div>
-            </div>
+            </form>
         </div>
 
-        <div class="bottom-column"></div>
+        <div class="bottom-column">
+            <button type="submit" form="my-form">Create Account</button>
+        </div>
     </div>
 </body>
 </html>
