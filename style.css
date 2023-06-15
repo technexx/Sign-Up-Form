@@ -40,6 +40,8 @@ body {
 .logo-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     margin-top: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -55,9 +57,7 @@ body {
 
 #logo-text {
     font-family: Norse;
-    display: flex;
     font-size: 96px;
-    align-items: center;
     height: auto;
     width: auto;
     color: white;
@@ -66,7 +66,7 @@ body {
 .right-side {
     display: flex;
     flex-direction: column;
-    width: 60%
+    width: 60%;
 }
 
 .top-column > p {
@@ -74,8 +74,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vmin;
     font-weight: bold;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    /* margin-left: 10vmin; */
+    margin-right: 10vmin;
+}
+
+.top-column > *, .mid-column > *, .bottom-column > * {
+    margin-left: 10vmin;
+
 }
 
 .top-column > :nth-child(1) {
@@ -96,16 +101,19 @@ body {
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 20px;
     height: 1rem;
 }
 
 .form-left, .form-right {
     display: flex;
     flex-direction: column;
-    width: 40%;
-    margin-left: 20px;
-    margin-right: 10px;
+    width: 30%;
+    margin-right: 10pvm;
+}
+
+.form-right {
+    margin-left: 5vmin;
+
 }
 
 .form-left > label, .form-right > label {
@@ -131,11 +139,6 @@ input:invalid:focus {
     border-radius: 5px;
   }
 
-  .bottom-column > * {
-    margin-left: 20px;
-    margin-top: 20px;
-  }
-
   #submit-button {
     height: 40px;
     width: 200px;
@@ -144,4 +147,5 @@ input:invalid:focus {
     background-color: #f5f0c9;
     font-size: 18px;
     font-weight: bold;
+    margin-top: 2vmin;
   }
