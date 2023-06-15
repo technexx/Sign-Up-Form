@@ -8,11 +8,12 @@ body {
 
 .top-column {
     display: flex;
-    flex: 1;
     flex-direction: column;
     background-color: #F8F6F4;
     justify-content: center;
     padding: 30px;
+    overflow: auto;
+
 }
 
 .mid-column {
@@ -67,13 +68,14 @@ body {
 
 .right-side > * {
     display: flex;
+    /* flex-grow: 1; */
     flex-direction: column;
-    height: 33.3%
+    height: 33.3%;
 }
 
 .top-column > p {
-    font-size: 20px;
-    /* font-size: clamp(16px, 3vw, 28px); */
+    /* font-size: calc((2vw + 2vh) / 2.5); */
+    font-size: 2.25vmin;
     font-weight: bold;
 }
 
