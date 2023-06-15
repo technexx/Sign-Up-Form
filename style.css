@@ -2,7 +2,28 @@ body {
     height: 100vh;
     box-sizing: border-box;
     display: flex;
+    padding: 0px;
+    margin: 0px;
 }
+
+.top-column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #F8F6F4;
+    justify-content: center;
+    padding: 30px;
+}
+
+.mid-column {
+    background-color: #E3F4F4;
+}
+
+.bottom-column {
+    display: flex;
+    flex-direction: column;
+    background-color: #D2E9E9;
+  }
 
 /*Flex-basis is initial size of element and applied to element itself. Grow/shrink apply to the flex container and how it manages all of its elements*/
 .left-side {
@@ -20,8 +41,7 @@ body {
     justify-content: center;
     flex-basis: 300px;
     margin-top: 200px;
-    background-color: rgba(0, 0, 0, 0.7);
-
+    background-color: rgba(226, 133, 133, 0.3);
 }
 
 .logo-container > img {
@@ -51,16 +71,10 @@ body {
     height: 33.3%
 }
 
-.top-column {
-    background-color: lightyellow;
-    justify-content: center;
-    font-size: 22px;
+.top-column > p {
+    font-size: 20px;
+    /* font-size: clamp(16px, 3vw, 28px); */
     font-weight: bold;
-    padding: 30px;
-}
-
-.mid-column {
-    background-color: aliceblue;
 }
 
 .mid-column > form {
@@ -108,12 +122,7 @@ input:invalid:focus {
     border-radius: 5px;
   }
 
-  .bottom-column {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .bottom-column > *{
+  .bottom-column > * {
     margin-left: 20px;
     margin-top: 20px;
   }
@@ -123,4 +132,7 @@ input:invalid:focus {
     width: 200px;
     border: 2px solid black;
     border-radius: 5px;
+    background-color: #f5f0c9;
+    font-size: 18px;
+    font-weight: bold;
   }
