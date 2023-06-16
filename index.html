@@ -28,7 +28,7 @@
             <form id="my-form">
                 <div class="form-left">
                     <label for="first_name">First Name</label>
-                    <input type="text" id="first_name" name="first_name" minlength="3" required>
+                    <input type="text" id="first_name" name="first_name" minlength="2" required>
                     <label for="e-mail">Email</label>
                     <input type="email" id="e-mail" name="e-mail" required>
                     <label for="password">Password</label>
@@ -36,9 +36,9 @@
                 </div>
                 <div class="form-right">
                     <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name" name="last_name" minlength="3" required >
+                    <input type="text" id="last_name" name="last_name" minlength="2" required >
                     <label for="phone_number">Phone Number</label>
-                    <input type="text" id="phone_number" name="phone_number" pattern="[1-9]{1}[0-9]{9}"oninvalid="setCustomValidity('Please enter a valid 10 digit phone number')" required>
+                    <input type="tel" id="phone_number" name="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                     <label for="confirm-password">Confirm Password</label>
                     <input type="password" id="confirm-password" name="password" required>
                 </div>
