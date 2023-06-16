@@ -53,6 +53,18 @@ body {
     height: 200px;
 }
 
+#photo-credit {
+    color: white;
+    font-size: 18px;
+    margin-top: auto;
+    align-self: bottom;
+    text-align: center;
+  }
+
+  #photo-credit > a {
+    color: white;
+  }
+
 @font-face { font-family: Norse; src: url('Norse-Bold.otf'); } 
 
 #logo-text {
